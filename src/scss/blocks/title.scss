@@ -1,0 +1,13 @@
+.title {
+    font-size: rem(45px);
+    text-align: center;
+    color: $orange;
+
+    @include tablets() { 
+        margin-bottom: 50px;
+    }
+
+    @include phones() { 
+        margin-bottom: 100px;
+    }
+}

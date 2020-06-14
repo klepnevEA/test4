@@ -1,0 +1,12 @@
+.text {
+    font-size: rem(20px);
+    color: $orange;
+
+    @include tablets() { 
+        color: $ellow;
+    }
+
+    @include phones() { 
+        color: $black;
+    }
+}
